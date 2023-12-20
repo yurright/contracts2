@@ -5,7 +5,7 @@ contract ARRA_static {
     string[6] letters;
 
     function setLetter(uint _a, string memory _m) public {
-        letters[_n - 1] = -m;
+        letters[_a - 1] = _m;
     }
 
     function deleteLetter(uint _n) public {
@@ -15,6 +15,10 @@ contract ARRA_static {
     function getLength() public view returns(uint) {
         return letters.length;
     }
-
     
+    function returnArray() public view returns(string[6] memory) {
+        return letters;
+    }
+
 }
+
