@@ -7,7 +7,7 @@ contract REVIEW {
     bytes c;
     uint[] numbers;
     string[] letters;
-    [10]
+    
  
     function addABC(uint _a, uint _b, uint _c) public pure returns(uint) {
         return (_a + _b + _c);
@@ -31,6 +31,22 @@ contract REVIEW {
 
     function getNumber(uint _a) public view returns(uint) {
         return numbers[_a - 1];
+    }
+
+    function setNumber(uint _a, uint _b) public {
+        numbers[_a] = _b;
+    }
+
+    function deleteNumber(uint _n) public {
+        delete numbers[_n - 1];
+    }
+
+    function getLength() public view returns(uint) {
+        return numbers.length;
+    }
+
+    function getNumbersAray() public view returns(uint[] memory) {
+return numbers;
     }
 
 }
