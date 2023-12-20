@@ -1,0 +1,168 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_teacher",
+						"type": "string"
+					}
+				],
+				"name": "getStudent1",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "number",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct DOUBLE_MAPPING.student",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_teacher",
+						"type": "string"
+					}
+				],
+				"name": "getStudents2",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "number",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct DOUBLE_MAPPING.student[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_teacher",
+						"type": "string"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "number",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct DOUBLE_MAPPING.student",
+						"name": "_student1",
+						"type": "tuple"
+					}
+				],
+				"name": "setTeacherStudent1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_teacher",
+						"type": "string"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "number",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct DOUBLE_MAPPING.student",
+						"name": "_student2",
+						"type": "tuple"
+					}
+				],
+				"name": "setTeacherStudent2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"mapping_with_struct_array.sol": "DOUBLE_MAPPING"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"mapping_with_struct_array.sol": {
+			"keccak256": "0x51a678e7fdfc2a1046d12cfd5b3d6269555c426dc062816833d68099dc7d91d8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://20baf9e093cc4288630468f2c45055f858eb7f15b69c86c9a1b1ffc9ff2c8386",
+				"dweb:/ipfs/QmbR9Q9Sr5SAu7JDXurijaAH6MmqxmPNUyT35y93KndAMv"
+			]
+		}
+	},
+	"version": 1
+}

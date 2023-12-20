@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "getGender",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "_isFemale",
+						"type": "bool"
+					}
+				],
+				"name": "setGender",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"mapping2.sol": "MAPPING2"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"mapping2.sol": {
+			"keccak256": "0x6c4f868d8ad444b78aa1bae5dcbc76ad6c554659569a25915f1ad154bbd4abe9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e1ec198ec83c208fea5f24f7893ceb75a26796b03b752aadd7b79e086b01b5b3",
+				"dweb:/ipfs/QmWdYXaEzW5MzaePfz4P4KFZ5ZRQgmBM329SMBAqjTuiJi"
+			]
+		}
+	},
+	"version": 1
+}

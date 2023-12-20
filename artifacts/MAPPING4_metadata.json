@@ -1,0 +1,121 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "number",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "score",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "home",
+								"type": "string"
+							}
+						],
+						"internalType": "struct MAPPING4.student1",
+						"name": "_student1",
+						"type": "tuple"
+					}
+				],
+				"name": "setStudent1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "number",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "score",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "home",
+								"type": "string"
+							}
+						],
+						"internalType": "struct MAPPING4.student2",
+						"name": "_student2",
+						"type": "tuple"
+					}
+				],
+				"name": "setStudent2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"mapping4.sol": "MAPPING4"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"mapping4.sol": {
+			"keccak256": "0x27eeecb094ec9b060d9654a3e98237532ead21b72ce9e64dae6863fe2bfaa579",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d7874bea694b888e66b1cd7ea0c49d972e7deade780ff2917cc663a042c313a3",
+				"dweb:/ipfs/QmW3YG8vSh9JN1vKYr3zsFDF9XgeNLbUzf7N51PxcpJ2LY"
+			]
+		}
+	},
+	"version": 1
+}

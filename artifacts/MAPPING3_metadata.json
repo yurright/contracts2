@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "number",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "score",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct MAPPING3.student",
+						"name": "_student",
+						"type": "tuple"
+					}
+				],
+				"name": "setStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"mapping3.sol": "MAPPING3"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"mapping3.sol": {
+			"keccak256": "0x49171488774f5919b428e9605ff8c614e86b475e2d47f28f5a59e14915e88291",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a72634878e7209d486076dc961a171000ef38554e9c5adeadbc8b92ee0a46cff",
+				"dweb:/ipfs/QmRyrGwjUpBtUmKMFHGSQ8urv2bz81HFdx15DXLTEaJ9Up"
+			]
+		}
+	},
+	"version": 1
+}

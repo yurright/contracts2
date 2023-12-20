@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_score",
+						"type": "uint256"
+					}
+				],
+				"name": "grade",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"if2.sol": "If"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"if2.sol": {
+			"keccak256": "0xbbfde73d3a851726c4600c603f8ebd2c54be07dcc8ad1c081d3652d2baaad517",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2bb456752bc2120f5e48832250a987d63414983d2d1b2b1e9bae0c861227f844",
+				"dweb:/ipfs/QmNRZKNXnC6x7ioGgpoqhWBbxNpN1RaexUBxVZP8VLcQne"
+			]
+		}
+	},
+	"version": 1
+}

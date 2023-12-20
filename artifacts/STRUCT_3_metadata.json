@@ -7,98 +7,6 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getClass",
-				"outputs": [
-					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
-							{
-								"internalType": "bool",
-								"name": "isMale",
-								"type": "bool"
-							},
-							{
-								"internalType": "uint256",
-								"name": "number",
-								"type": "uint256"
-							}
-						],
-						"internalType": "struct STRUCT.Student[]",
-						"name": "",
-						"type": "tuple[]"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getS",
-				"outputs": [
-					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
-							{
-								"internalType": "bool",
-								"name": "isMale",
-								"type": "bool"
-							},
-							{
-								"internalType": "uint256",
-								"name": "number",
-								"type": "uint256"
-							}
-						],
-						"internalType": "struct STRUCT.Student",
-						"name": "",
-						"type": "tuple"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getSName",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getSNumber",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_n",
-						"type": "uint256"
-					}
-				],
 				"name": "getStudent",
 				"outputs": [
 					{
@@ -109,9 +17,21 @@
 								"type": "string"
 							},
 							{
-								"internalType": "bool",
-								"name": "isMale",
-								"type": "bool"
+								"internalType": "uint256",
+								"name": "number",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct STRUCT_3.student",
+						"name": "",
+						"type": "tuple"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
 							},
 							{
 								"internalType": "uint256",
@@ -119,7 +39,24 @@
 								"type": "uint256"
 							}
 						],
-						"internalType": "struct STRUCT.Student",
+						"internalType": "struct STRUCT_3.student",
+						"name": "",
+						"type": "tuple"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "number",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct STRUCT_3.student",
 						"name": "",
 						"type": "tuple"
 					}
@@ -135,17 +72,12 @@
 						"type": "string"
 					},
 					{
-						"internalType": "bool",
-						"name": "_isMale",
-						"type": "bool"
-					},
-					{
 						"internalType": "uint256",
 						"name": "_number",
 						"type": "uint256"
 					}
 				],
-				"name": "pushStudent",
+				"name": "setStudent1",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -158,9 +90,22 @@
 						"type": "string"
 					},
 					{
-						"internalType": "bool",
-						"name": "_isMale",
-						"type": "bool"
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					}
+				],
+				"name": "setStudent2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
 					},
 					{
 						"internalType": "uint256",
@@ -168,7 +113,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "setS",
+				"name": "setStudent3",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -187,7 +132,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"struct.sol": "STRUCT"
+			"struct_3.sol": "STRUCT_3"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -201,12 +146,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"struct.sol": {
-			"keccak256": "0xe9e9b8e595b15d4d4bcdebbc42ba7262f2bd73f089ee631184964d7827b3dbe5",
+		"struct_3.sol": {
+			"keccak256": "0x7242de4d6772253770c924f8dc4990b5876e3f5e66de3c4071fd69fbae681111",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ed8f6024365831b5ef374ee97bc0a7c4485becedcfd0dff6a79c1d16a01da2ad",
-				"dweb:/ipfs/QmYqhiPPwcZDCbPRsNLQ1PRm6AjXZk6SqTFLcPKGie2y8e"
+				"bzz-raw://7cddffe4b7874d93f35fdda4839874859822b1ee216c99296b5ee9cbbee3a222",
+				"dweb:/ipfs/Qmd8L6EetDRranpCkubfpShjrJ2fGSnENupzXrK4aTaDAo"
 			]
 		}
 	},
